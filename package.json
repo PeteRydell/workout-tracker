@@ -1,0 +1,24 @@
+{
+  "name": "workout-tracker",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "watch": "nodemon server.js",
+    "seed": "node seeders/seed.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PeteRydell/workout-tracker.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "homepage": "https://github.com/PeteRydell/workout-tracker#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^5.9.2",
+    "morgan": "^1.9.1"
+  }
+}
